@@ -1,5 +1,4 @@
 
-
 *{
   margin: 0;
   padding: 0;
@@ -55,7 +54,7 @@ a{
 }
 
 .main{
-  height: 50px;
+  height: auto;
 }
 
 
@@ -70,7 +69,7 @@ a{
 
 .top-wrapper img{
   width: 90vw;
-  height: 50vh;
+  height: 30vh;
   margin: 0 4vw;
 }
 
@@ -80,11 +79,17 @@ a{
 
 }
 
+.flex{
+  height: 75vh;
+  display: flex;
+  padding: 0 2vw;
+}
+
 .btn {
-  height: 30vh;
-  width: 80vw;
+  height: 60vh;
+  width: 45vw;
   text-align: center;
-  margin: 15vh 7vw;
+  margin: 10vh 1vw;
   border: 2px solid #000;
   background-size: cover;
   border-radius: 5px;
@@ -97,85 +102,108 @@ a{
 
 .btn a{
 display: inline-block;
-width: 86vw;
-font-size: 30px;
-text-align: center;
-line-height: 30vh;
-color: #000;
+width: 45vw;
+
+}
+
+.btn p{
+  display:block;
+  width: 45vw;
+  margin: 54vh 0 0 0;
+  font-size: 30px;
+  text-align: center;
+  background-color:rgba(211, 255, 203, 0.5);
+  color: #000;
 }
 
 .president{
-    background-color:#afa6ff;
+  background-image: url("pictures/IMG_9626.JPG");
 }
 
-.vice-president{
-  background-color:#ffd9ff;
-}
+/*.vice-president{
+  background-image: url("vice-president/pictures/pic.png");
+}*/
 
 .accountant{
-    background-color:#ffffb5;
+  background-image: url("pictures/IMG_9625.JPG");
 }
 
-.BKC{
-    background-color:#c1e3ff;
+.X{
+  background-image: url("pictures/IMG_9624.JPG");
 }
 
-.KIC{
-  background-color:#ffb9a3;
+.Y{
+  background-image: url("pictures/IMG_9627.JPG");
 }
 
-.OIC{
-  background-color:#d3ffcb;
-}
-
-
-.home{
-  background-image: url(../home/pictures/IMG_3805.jpg);
-  background-position:top;
-  border-radius: 35px;
-}
-
-.SNS{
-  text-align: center;
-}
-
-.sns{
-  display: inline-block;
-  width: 40vw;
-  text-align: center;
-  margin: 40px 4.5vw;
-  font-size: 20px;
-  border-radius: 100px;
-  color: white;
-  float: left;
-}
-
-.twitter{
-  background-color: #55acee;
-}
-
-.instagram{
-  background-image: url(../pictures/instagram_23-2147821882.jpg);
-  background-size: cover;
-
-}
-
-.sns:active{
-  opacity: 0.7;
-}
+/*.Z{
+  background-image: url("Z/pictures/pic.png");
+}*/
 
 .footer{
-  height: 150px;
-  background-color: #000000;
-  margin-top: 50px;
+    height: 200px;
+    background-color: #000000;
+    margin-top: 50px;
+  }
 
-}
+  .SNS{
+    text-align: center;
+  }
+
+  .sns{
+    display: inline-block;
+    width: 40vw;
+    text-align: center;
+    margin: 20px 4.5vw;
+    font-size: 20px;
+    border-radius: 100px;
+    color: white;
+    float: left;
+  }
+
+  .twitter{
+    background-color: #55acee;
+  }
+
+  .instagram{
+    background-image: url(../pictures/instagram_23-2147821882.jpg);
+    background-size: cover;
+    background-position: top;
+  }
+
+  .LINE{
+    background-color: #00B900;
+  }
+
+  .sns:active{
+    opacity: 0.7;
+  }
+
 
 /*----------------------------------------------------------*/
 
 
 @media screen and (max-width:1000px) {
 /*横表示*/
+
+.top-wrapper img{
+  height: 40vh;
+}
+
+.btn {
+  height: 70vh;
+}
+
+.btn a{
+  display: inline-block;
+  width: 45vw;
+  height: 70vh;
+}
+
+.btn p{
+  margin: 60vh 0 0 0;
+  font-size: 1.7em;
+}
 
 }
 
@@ -187,19 +215,39 @@ color: #000;
 
 
 .top-wrapper img{
-  height: 30vh;
+  height: 15vh;
+}
+
+.flex{
+  height: auto;
+  display: block;
+  padding: 0;
 }
 
 
 .btn {
-  height: 15vh;
-  margin: 10vh 7vw;
+  width: 90vw;
+  height: 70vh;
+  margin: 10vh 5vw;
+  background-position: top;
 }
 
 
 .btn a{
+  width: 90vw;
   line-height: 15vh;
 }
 
+.btn p{
+  height: 6vh;
+  line-height: 6vh;
+  width: 90vw;
+  margin: 63vh 0 0 0;
+  font-size: 1.6em;
+}
+
+.twitter-2{
+  font-size: 10px;
+}
 
 }

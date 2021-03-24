@@ -328,6 +328,12 @@ color: #808080;
 }
 
 
+.footer{
+  height: 200px;
+  background-color: #000000;
+  margin-top: 50px;
+}
+
 .SNS{
   text-align: center;
 }
@@ -336,35 +342,29 @@ color: #808080;
   display: inline-block;
   width: 40vw;
   text-align: center;
-  margin: 40px 4vw;
+  margin: 20px 4.5vw;
   font-size: 20px;
   border-radius: 100px;
   color: white;
   float: left;
-
 }
-
 
 .twitter{
   background-color: #55acee;
-
 }
-
 
 .instagram{
   background-image: url(../../pictures/instagram_23-2147821882.jpg);
   background-size: cover;
+  background-position: top;
+}
+
+.LINE{
+  background-color: #00B900;
 }
 
 .sns:active{
   opacity: 0.7;
-}
-
-.footer{
-  height: 150px;
-  margin-top: 50px;
-  background-color: #000000;
-
 }
 
 /*----------------------------------------------------------*/
@@ -538,6 +538,10 @@ table{
 .go a{
   width: 90vw;
   line-height: 10vh;
+}
+
+.twitter-2{
+  font-size: 10px;
 }
 
 

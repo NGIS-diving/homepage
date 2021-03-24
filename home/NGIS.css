@@ -180,9 +180,18 @@ a{
   float: left;
 }
 
+.twitter-2{
+  font-size: 30px;
+}
+
 .instagram{
   background-image: url(../pictures/instagram_23-2147821882.jpg);
   background-size: cover;
+  float: left;
+}
+
+.LINE{
+  background-color: #00B900;
   float: left;
 }
 
@@ -221,6 +230,8 @@ a{
 }
 
 
+
+
 /*----------------------------------------------------*/
 
 
@@ -239,6 +250,10 @@ a{
 
   .btn a{
     font-size: 2em;
+  }
+
+  .twitter-2{
+    font-size: 15px;
   }
 
   .form a{

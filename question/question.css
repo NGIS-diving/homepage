@@ -221,42 +221,44 @@ dd a:active{
 
 
 
-.SNS{
-  text-align: center;
-}
-
-.sns{
-  display: inline-block;
-  width: 40vw;
-  text-align: center;
-  margin: 40px 4.5vw;
-  font-size: 20px;
-  border-radius: 100px;
-  color: white;
-  float: left;
-
-}
-
-.twitter{
-  background-color: #55acee;
-}
-
-.instagram{
-  background-image: url(../pictures/instagram_23-2147821882.jpg);
-  background-size: cover;
-
-}
-
-.sns:active{
-  opacity: 0.7;
-}
-
 .footer{
-  height: 150px;
-  background-color: #000000;
-  margin-top: 50px;
+    height: 200px;
+    background-color: #000000;
+    margin-top: 50px;
+  }
 
-}
+  .SNS{
+    text-align: center;
+  }
+
+  .sns{
+    display: inline-block;
+    width: 40vw;
+    text-align: center;
+    margin: 20px 4.5vw;
+    font-size: 20px;
+    border-radius: 100px;
+    color: white;
+    float: left;
+  }
+
+  .twitter{
+    background-color: #55acee;
+  }
+
+  .instagram{
+    background-image: url(../pictures/instagram_23-2147821882.jpg);
+    background-size: cover;
+    background-position: top;
+  }
+
+  .LINE{
+    background-color: #00B900;
+  }
+
+  .sns:active{
+    opacity: 0.7;
+  }
 
 /*----------------------------------------------------------*/
 
@@ -291,7 +293,6 @@ dd a{
   width: 25vw;
   margin:0 !important;
 }
-
 
 
 }
@@ -366,6 +367,10 @@ dd a{
   color: black;
   width: 55vw;
   margin:0 !important;
+}
+
+.twitter-2{
+  font-size: 10px;
 }
 
 
