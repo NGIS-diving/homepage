@@ -87,7 +87,7 @@ a{
 
 .btn {
   height: 60vh;
-  width: 45vw;
+  width: 30vw;
   text-align: center;
   margin: 10vh 1vw;
   border: 2px solid #000;
@@ -102,13 +102,13 @@ a{
 
 .btn a{
 display: inline-block;
-width: 45vw;
+width: 30vw;
 
 }
 
 .btn p{
   display:block;
-  width: 45vw;
+  width: 30vw;
   margin: 54vh 0 0 0;
   font-size: 30px;
   text-align: center;
@@ -117,28 +117,40 @@ width: 45vw;
 }
 
 .president{
-  background-image: url("pictures/IMG_9626.JPG");
+  background-image: url("pictures/S__93962254.jpg");
 }
 
-/*.vice-president{
-  background-image: url("vice-president/pictures/pic.png");
-}*/
+.vice-president{
+  background-image: url("pictures/S__93962256.jpg");
+}
 
 .accountant{
-  background-image: url("pictures/IMG_9625.JPG");
+  background-image: url("pictures/S__93962257.jpg");
 }
 
 .X{
-  background-image: url("pictures/IMG_9624.JPG");
+  background-image: url("pictures/S__93962259.jpg");
+}
+
+.X-2{
+  background-image: url("pictures/S__93962260.jpg");
 }
 
 .Y{
-  background-image: url("pictures/IMG_9627.JPG");
+  background-image: url("pictures/S__93962258.jpg");
 }
 
-/*.Z{
-  background-image: url("Z/pictures/pic.png");
-}*/
+.Z{
+  background-image: url("pictures/S__93962261.jpg");
+}
+
+.R{
+  background-image: url("pictures/S__93962262.jpg");
+}
+
+.R-2{
+  background-image: url("pictures/S__93962263.jpg");
+}
 
 .footer{
     height: 200px;
@@ -196,7 +208,7 @@ width: 45vw;
 
 .btn a{
   display: inline-block;
-  width: 45vw;
+  width: 30vw;
   height: 70vh;
 }
 
